@@ -1,5 +1,7 @@
 A terribly-written kext that calls on the Lenovo X250 ACPI method to set the laptop's mute state when the kext's mute state property is changed.
 
+Thanks to RehabMan and Dolnor, this largely consists of their great code cribbed together to make this horrible kext.
+
 Fixer is a misnomer, this is simply a setter.
 
 Having a properly synchronised mute state is useful because:
